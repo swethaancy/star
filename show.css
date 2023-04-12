@@ -1,0 +1,224 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 6px;
+    color: white;
+    background-color: rgb(42, 42,68);
+}
+
+.nav-bar .nav-left{
+    display: flex;
+    margin-top: 10px;
+    width: 50%;
+}
+
+.nav-left img{
+    width: 125px;
+    margin-left: 10px;
+}
+
+
+.nav-left input{
+
+    border: 1px solid #ccc;
+    margin-left: 30px;
+    padding: 8px 12px;
+    border-radius: 5px;
+    width: 350px;
+    height: 20px;
+}
+
+.nav-bar .nav-right{
+    display: flex;
+    margin-top: 11px;
+}
+
+.nav-right p{
+    margin-inline: 22px;
+    font-size: 22px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav-right p:hover{
+    color: grey;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.nav-right .fa-solid{
+    margin-top: 6px;
+    width: 25px;
+    height: 25px;
+}
+
+.nav-right button{
+    margin-inline: 22px;
+    width: 80px;
+    height: 27px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(255, 47, 82);
+    color: white;
+}
+
+.sec-nav-bar{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 12px;
+    background-color: rgb(26, 26, 48);
+    color: white;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.sec-nav-left{
+    display: flex;
+}
+
+.sec-nav-left p{
+    margin-inline-start: 18px;
+}
+
+.sec-nav-right{
+    display: flex;
+}
+
+.sec-nav-bar p:hover{
+    color: grey;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.sec-nav-right p{
+    margin-inline-start: 22px;
+}
+
+/*------------------------------MAIN---------------------------*/
+
+
+.container .banner img{
+    width: 100%;
+}
+
+.container .rec-movies h2{
+    text-align: left;
+    padding: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.container .rec-movies .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 75%;
+    margin-left: 30px;
+    margin-block: 15px;
+    border-radius: 5px;
+}
+
+
+.container .events h2{
+    text-align: justify;
+    padding: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.events .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.premiere{
+    background-color: rgb(43, 49, 72);
+    color: white;
+    margin-top: 44px;
+}
+
+.premiere h2 {
+    text-align: justify;
+    padding: 22px;
+    margin-left: 10px;
+    margin-top: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.premiere p{
+    text-align: justify;
+    padding: 22px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.premiere .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.container .sports h2{
+    text-align: justify;
+    padding: 22px;
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.sports .card{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: rgb(47, 47, 47);
+    padding: 33px;
+    margin-top: 44px;
+}
+
+.footer img{
+    width: 22%;
+    margin-left: 39%;
+    border-top: 2px solid grey;
+}
+
+.footer .icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;   
+}
+
+.icons i{
+    margin-inline: 22px;
+    font-size: 36px;
+    
+}
+
+.icons i:hover{
+    color: white;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.footer .copy-right{
+    color: rgb(166, 166, 166);
+    font-size: 13px;
+    margin-top: 40px;
+    margin-left: 39%;
+
+}
